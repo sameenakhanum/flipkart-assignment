@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header section */
@@ -74,14 +74,14 @@ header{
 
 
 
-.header-center{
+.header-mobile{
     width: 92%;
     text-align: left;
     cursor: pointer;
     padding: 10px 0 0 30px;
     position: relative;
 }
-.header-center input{
+.header-mobile input{
     height: 30px;
     width: 100%;
     border: none;
@@ -215,7 +215,7 @@ header{
 
 .col-womens-cloth img{
     width: 105px;
-    height: 110px;
+    height: 140px;
 }
 
 /* headphones section */
@@ -231,19 +231,108 @@ header{
    width: 100px;
    height: 140px;
 }
-/* .desktop-header{
+.header-center{
     display: none;
-} */
+}
+.header2{
+    display: block;
+}
 
 @media (min-width: 1024px) {
     
-    /* .header2{
+.header2{
         display: none;
-    } */
+    }
+
+ .header-left{
+        width: 20%;
+        padding: 25px 0 0 60px;
+    }
+    .header-left a{
+        font-size: 19px;
+    }
+    .header-left p a{
+        font-size: 12px;
+    }
+    .header-left p span{
+        font-size: 12px;
+    }
 
 
-    
-    
+ .header-right{
+        font-size: 16px;
+        line-height: 20px;
+    }
+ .header-right a{
+        margin: 35px 0 0 20px;
+    }
+    .fa-shopping-cart{
+        padding-right: 1px;
+    }
+    .fa-sort-down{
+        padding-left: 1px;
+    }
+
+.header-center{
+    display: block;
+}
+.header-center{
+    width: 72%;
+    padding: 10px 0 0 30px;
+}
+.header-center input{
+    height: 40px;
+    width: 70%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.fa-search{
+    position: absolute;
+    top: 6%;
+    left: 64%;
+    font-size: 18px;
+}
+
+
+.category-col img{
+        width: 60px;
+        height: 60px;
+    }
+.category-col p{
+        font-size: 15px;
+    }
+
+    .slider img{
+        height: 290px;
+    }
+    .card{
+        padding: 10px 0px;
+        margin: 10px 6px;
+        border-radius: 5px;
+    }
+    .common-heading-left h1{
+        font-size: 24px;
+    }
+    .common-heading-left h2{
+        font-size: 16px;
+    }
+    .common-row{
+        min-height: 230px;
+    }
+    button{
+        width: 90px;
+        height: 38px;
+        font-size: 15px;
+    }
+    .common-col h3{
+        font-size: 18px;
+    }
+    .common-col h4{
+        font-size: 14px;
+    }
+    .common-col h6{
+        font-size: 12px;
+    }
     
 }
 
